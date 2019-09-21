@@ -16,6 +16,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        InicializarButtonsWithFindview();
 
+        
+
+
+    }
+
+    private void InicializarButtonsWithFindview() {
+        buttonRojo = findViewById(R.id.buttonRojo);
+        buttonVerde = findViewById(R.id.buttonVerde);
     }
 }
